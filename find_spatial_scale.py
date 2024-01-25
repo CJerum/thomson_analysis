@@ -10,7 +10,7 @@ calibration_directory = './calibration/'
 im_directory = './calibration/'
 image_to_analyze ='airforce-test-strip-backlit-greenlaser.tif'
 im_directory = './1_19_2024_laser_spark/'
-image_to_analyze ='Sequence15(UBSi121HB2062).tif'
+image_to_analyze ='Sequence45(UBSi121HB2062).tif'
 path_to_image = im_directory+image_to_analyze
 save_directory = im_directory+image_to_analyze.split('/')[-1].split('.')[0]+'/'
 
