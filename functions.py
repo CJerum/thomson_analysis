@@ -7,6 +7,7 @@ import cv2
 import pickle
 import os 
 
+        max_index = np.argmax(lineout)
 def find_circles_in_image(gray=None):
     # Apply Gaussian blur to reduce noise
     blurred = cv2.GaussianBlur(gray, (5, 5), 0)
